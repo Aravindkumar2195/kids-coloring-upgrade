@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'coloring_gallery_screen.dart';
 import 'free_draw_screen.dart';
 import 'my_artwork_screen.dart';
+import '../utils/drawing_history_manager.dart';
+import '../managers/drawing_tools_manager.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
